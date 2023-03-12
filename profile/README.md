@@ -1,26 +1,4 @@
-<style> 
-.left {
-    justify-content: center;
-    text-align: left;
-    margin-left: 24px;
-    float: left;
-    width: 33%;
-}
-.right {
-    text-align: right;
-    margin-right: 24px
-    float: right;
-    width: 66%
-}
-.divider {
-    border-left: 2px solid gray;
-    height: 360px;
-    float: center;
-    width: 1%
-}
-</style>
-
-<div class="left">
+<div class="left" style=" justify-content: center; text-align: left; margin-left: 24px; float: left; width: 33%;">
 <h2>Hello!</h2>
 <p> Welcome to our GitHub page. It's a pleasure aeto meet you!
 
@@ -38,7 +16,7 @@ We're purveyors of aesthetically pleasing and useful utilities. </p>
 
 <div class="divider"></div>
 
-<div class="right"> 
+<div class="right" style=" justify-content: center; text-align: right; margin-left: 24px; float: right; width: 66%;" > 
 <h2> Our Work </h2>
 <p> Our main efforts at the moment are focused on Kyo, an educational planner app meant to be simple and utilitarian. It can be found at our <a href="https://github.com/aureliaapps/kyoneopublic"> AureliaApps/KyoNeoPublic. </a> repository.</p>
 
